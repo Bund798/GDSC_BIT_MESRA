@@ -1,0 +1,96 @@
+
+body{
+    background-color:#FFF5EB;
+    position:relative;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width:75%;
+    height:120vh;
+  
+   
+    background-color:#D7E9F7;;
+    position:absolute;
+    top:0;
+    right:0;
+    
+
+}
+
+.contact_icon{
+  position:absolute;
+    background-color:#3DB2FF;
+   
+  left:0;
+}
+
+
+.image{
+  position:absolute;
+  top:10px;
+  right:10px;
+  z-index:2;
+}
+.hero{
+ 
+ position:relative;
+ 
+ display:flex;
+
+
+}
+@media(max-width:425px)
+{.hero-right{
+  display:none;
+  width: 0%;
+}
+.navbar{
+  display:none;
+}
+
+}
+.hero-right{
+position: absolute;
+top:200px;
+right:30px;
+
+}
+.hero_left
+{
+  position:absolute;
+  top:150px;
+  left:50px;
+  width:50%;
+}
+
+
+ li{
+  display:inline-block;
+ list-style: none;
+ margin-top:20px;
+margin-right:10px;
+ 
+}
+.anchor{
+ 
+  text-decoration: none;
+  color:black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
